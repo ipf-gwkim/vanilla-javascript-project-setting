@@ -13,7 +13,7 @@ class DrawButton {
 
   appendToParent(parent) {
     this.button.addEventListener('click', () => {
-      this.target.append('클릭됨');
+      this.target.append('Draw');
     });
     parent.append(this.button);
   }
