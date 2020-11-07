@@ -1,4 +1,4 @@
-import './DrawButton.css';
+import './DrawButton.scss';
 
 class DrawButton {
   constructor() {

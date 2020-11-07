@@ -1,5 +1,5 @@
 import DrawButton from './DrawButton.js';
-import './index.css';
+import './index.scss';
 
 const button = new DrawButton();
 button.setScreen(document.getElementById('screen'));

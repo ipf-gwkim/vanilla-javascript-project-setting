@@ -14,10 +14,11 @@ module.exports = {
         use: 'babel-loader',
       },
       {
-        test: /\.css$/,
-        // 먼저 css-loader가 css를 가져온다.
-        // 다음으로 style-loader가 html head에 style 태그를 넣어준다.
-        use: ['style-loader', 'css-loader'],
+        test: /\.scss$/,
+        // 먼저 'sass-laoder'가 SASS를 CSS로 바꾼다.
+        // 다음으로 'css-loader'가 css를 commonJS로 바꾼다.
+        // 다음으로 'style-loader'가 JS strings를 이용해서 html head에 style nodes를 만들어 넣는다.
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],
   },
