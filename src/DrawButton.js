@@ -1,3 +1,5 @@
+import './DrawButton.css';
+
 class DrawButton {
   constructor() {
     this.button = document.createElement('button');
