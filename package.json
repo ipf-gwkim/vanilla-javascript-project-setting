@@ -15,6 +15,7 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.1.0",
+    "core-js": "^3.7.0",
     "css-loader": "^5.0.1",
     "sass": "^1.29.0",
     "sass-loader": "^10.0.5",
