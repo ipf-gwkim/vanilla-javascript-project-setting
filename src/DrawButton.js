@@ -1,3 +1,4 @@
+import getText from './getText.js';
 import './DrawButton.scss';
 
 class DrawButton {
@@ -13,7 +14,8 @@ class DrawButton {
 
   appendToParent(parent) {
     this.button.addEventListener('click', () => {
-      this.target.append('Draw');
+      getText()
+        .then(json => this.target.append(json.title));
     });
     parent.append(this.button);
   }
