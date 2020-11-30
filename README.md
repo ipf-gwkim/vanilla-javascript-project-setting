@@ -1,4 +1,5 @@
-dist와 src와 폴더의 파일들은 예제다.
+dist 폴더의 파일들은 예제다.\
+index.js 파일은 반드시 있어야 한다.
 
 ## devServer 사용 방법
 `npm start`를 입력한다.\
